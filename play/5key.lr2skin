@@ -1,0 +1,30 @@
+//,type,title,maker,thumbnail...
+#INFORMATION,1,Colorbleed-5k,Icycle
+
+//type
+//0 7KEYS
+//1 5KEYS
+//2 14KEYS
+//3 10KEYS
+//4 9KEYS
+//5 MUSICSELECT
+//6 DECIDE
+//7 RESULT
+//8 KEYCONFIG
+//9 SKINSELECT
+//10 SOUNDSET
+//11 THEME
+//12 7KEYS BATTLE
+//13 5KEYS BATTLE
+//14 9KEYS BATTLE
+
+//CUSTOMIZE INFO
+
+
+//INFORMATIONとCUSTOMIZEの終了時に入れてください。,,,,,,,,
+//必須ではありませんが、起動が少しばかり高速になります。,,,,,,,,
+#ENDOFHEADER,,,,,,,,
+
+//#CUSTOMOPTIONで設定したoption値は、#includeで参照しているスキンにも有効です,,,
+
+#INCLUDE,LR2files\Theme\Colorbleed\play\sys5.csv,
