@@ -1,0 +1,14 @@
+//インフォメーション////////////////////////////////////////////////////////////
+//,type(select = 5),title,maker,thumbnail
+#INFORMATION,5,Colorbleed, Icycle,
+
+//カスタムオプション///////////////////////////////////////////////////////////
+
+//Background
+#CUSTOMFILE,BG IMAGE,LR2files\Theme\Colorbleed\Select\Image\*.jpg,
+
+
+
+#ENDOFHEADER,,,,,,,,
+
+#INCLUDE,LR2files\Theme\Colorbleed\select\select.csv,,,,
