@@ -5,7 +5,8 @@
 //カスタムオプション////////////////////////////////////////////////////////////////////////////,,,,
 
 
-
+#CUSTOMFILE,CLEAR BG,LR2files\Theme\Colorbleed\results\bg\Clear\*.jpg,,,,,,
+#CUSTOMFILE,FAIL BG,LR2files\Theme\Colorbleed\results\bg\Failed\*.jpg,,,,,,
 
 
 #ENDOFHEADER

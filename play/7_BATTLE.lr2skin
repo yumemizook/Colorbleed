@@ -20,7 +20,7 @@
 
 //CUSTOMIZE INFO
 
-
+#CUSTOMFILE,BOMB,LR2files\Theme\Colorbleed\play\bomb\*.png,Spring Bomb,,,,,,
 //INFORMATIONとCUSTOMIZEの終了時に入れてください。,,,,,,,,
 //必須ではありませんが、起動が少しばかり高速になります。,,,,,,,,
 #ENDOFHEADER,,,,,,,,

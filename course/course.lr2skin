@@ -1,0 +1,17 @@
+//ƒCƒ“ƒtƒHƒ[ƒVƒ‡ƒ“//////////////////////////////////////////////////////////////////////////,,,,
+//,type,title,maker,thumbnail
+#INFORMATION,15,Colorbleed, Icycle
+
+//ƒJƒXƒ^ƒ€ƒIƒvƒVƒ‡ƒ“////////////////////////////////////////////////////////////////////////////,,,,
+
+
+#CUSTOMFILE,CLEAR BG,LR2files\Theme\Colorbleed\results\bg\Clear\*.jpg,,,,,,
+#CUSTOMFILE,FAIL BG,LR2files\Theme\Colorbleed\results\bg\Failed\*.jpg,,,,,,
+
+
+#ENDOFHEADER
+
+//ƒXƒLƒ“•ªŠò////////////////////////////////////////////////////////////////////////////////////////,,,,
+
+
+#INCLUDE,.\LR2files\Theme\Colorbleed\course\course.csv,,,

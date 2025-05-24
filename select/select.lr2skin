@@ -1,0 +1,23 @@
+//インフォメーション////////////////////////////////////////////////////////////
+//,type(select = 5),title,maker,thumbnail
+#INFORMATION,5,Colorbleed, Icycle,
+
+//カスタムオプション///////////////////////////////////////////////////////////
+
+//Background
+#CUSTOMOPTION,LANGUAGE,900,ENGLISH,JAPANESE,,
+#CUSTOMFILE,BG IMAGE,LR2files\Theme\Colorbleed\select\Image\*.jpg,
+#CUSTOMFILE,CURSOR,LR2files\Theme\Colorbleed\select\cursor\*.png,
+
+
+#ENDOFHEADER,,,,,,,,
+
+
+
+#IF,900,,,,
+#INCLUDE,LR2files\Theme\Colorbleed\select\select.csv,,,,
+#ENDIF,,,,,
+
+#IF,901,,,,
+#INCLUDE,LR2files\Theme\Colorbleed\select\selectjp.csv,,,,
+#ENDIF,,,,,

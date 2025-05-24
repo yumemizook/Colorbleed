@@ -23,7 +23,7 @@
 #CUSTOMOPTION,SCRATCH SIDE,910,LEFT,RIGHT,,
 #CUSTOMFILE,MASCOT,LR2files\Theme\Colorbleed\play\mascot\*.png,off.png,,,,,,
 #CUSTOMFILE,BOMB,LR2files\Theme\Colorbleed\play\bomb\*.png,Spring Bomb,,,,,,
-
+#CUSTOMOPTION,BGA STYLE (FOR NORMAL),920,NORMAL,IIDX MODERN (FOR HANDCAM),,
 //INFORMATIONとCUSTOMIZEの終了時に入れてください。,,,,,,,,
 //必須ではありませんが、起動が少しばかり高速になります。,,,,,,,,
 #ENDOFHEADER,,,,,,,,
