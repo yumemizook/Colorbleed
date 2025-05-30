@@ -15,6 +15,7 @@
 #IMAGE,LR2files\Theme\Colorbleed\select\creditsjp.png,,,,,//4,,,,,,,,,,,,,,
 #IMAGE,LR2files\Theme\Colorbleed\select\profilejp.png,,,,,//5,,,,,,,,,,,,,,
 #IMAGE,LR2files\Theme\Colorbleed\select\cursor\*.png,,,,,//6,,,,,,,,,,,,,,
+#IMAGE,LR2files\Theme\Colorbleed\select\countdown.png,,,,,//7,,,,,,,,,,,,,,
 #FONT,20,4,2,,,,,,,,,,,,,,,,,
 #LR2FONT,LR2files\Theme\Colorbleed\font\font.lr2font,,,,,,//0,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,
@@ -753,6 +754,14 @@
 //DSTíËã`,index,time,x,y,w,size,acc,a,r,g,b,blend,filter,(NULL),(NULL),loop,timer,(NULL),(NULL),(NULL)
 #DST_TEXT,0,0,200,430,460,20,0,255,255,255,255,0,1,0,0,0,11,3,0,0
 ,,,,,,,,,,,,,,,,,,,,
+//PANEL LISTING:,,,,,,,,,,,,,,,,,,,,
+//1 OPTIONS,,,,,,,,,,,,,,,,,,,,
+//2 SYSTEM,,,,,,,,,,,,,,,,,,,,
+//3 FX,,,,,,,,,,,,,,,,,,,,
+//4 SCORE,,,,,,,,,,,,,,,,,,,,
+//5 CREDITS,,,,,,,,,,,,,,,,,,,,
+//6 BREAK SCREEN,,,,,,,,,,,,,,,,,,,,
+//7 STATS,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,
 //SYSTEM PANEL,,,,,,,,,,,,,,,,,,,,
 //SRCÔøΩÔøΩ`,(null),gr,x,y,w,h,div_x,div_y,cycle,timer,type,click,panel,,,,,,,
@@ -2253,6 +2262,41 @@
 //DSTÔøΩEEÔøΩEEÔøΩEE`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_IMAGE,0,0,140,60,1000,600,2,255,255,255,255,1,0,0,0,500,35,0,0,0
 #DST_IMAGE,0,500,140,60,1000,600,2,0,255,255,255,1,0,0,0,0,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,
+//COUNTDOWN TIMER (JP ONLY),,,,,,,,,,,,,,,,,,,,
+//SRCÔøΩEEÔøΩEEÔøΩEE`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,7,29,252,47,15,1,1,0,0,0,0,0,,,,,,,
+//DSTÔøΩEEÔøΩEEÔøΩEE`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,-16,72,14,15,0,255,255,255,255,1,0,0,0,1000,0,0,0,0
+#DST_IMAGE,0,500,0,72,14,15,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+#DST_IMAGE,0,1000,0,72,47,15,2,255,255,255,255,1,0,0,0,0,0,0,0,0
+//SRCÔøΩEEÔøΩEEÔøΩEE`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,7,0,0,21,270,1,10,100,0,0,0,0,,,,,,,
+//DSTÔøΩEEÔøΩEEÔøΩEE`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,105,98,14,17,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+//SRCÔøΩEEÔøΩEEÔøΩEE`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,7,0,0,21,270,1,10,1000,0,0,0,0,,,,,,,
+//DSTÔøΩEEÔøΩEEÔøΩEE`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,90,98,14,17,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+//DOT,,,,,,,,,,,,,,,,,,,,
+//SRCÅEEÅEEÅEE`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,2,1632,407,12,12,1,1,0,0,0,0,0,,,,,,,
+//DSTÅEEÅEEÅEE`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,78,104,10,10,2,255,255,255,255,1,0,0,0,0,0,0,0,0
+//SRCÔøΩEEÔøΩEEÔøΩEE`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,7,0,0,21,270,1,10,10000,0,0,0,0,,,,,,,
+//DSTÔøΩEEÔøΩEEÔøΩEE`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,56,88,21,27,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+//SRCÔøΩEEÔøΩEEÔøΩEE`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,7,0,0,21,270,1,10,100000,0,0,0,0,,,,,,,
+//DSTÔøΩEEÔøΩEEÔøΩEE`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,32,88,21,27,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+//SRCÔøΩEEÔøΩEEÔøΩEE`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,7,0,0,21,270,1,10,1000000,0,0,0,0,,,,,,,
+//DSTÔøΩEEÔøΩEEÔøΩEE`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,8,88,21,27,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,
 //BG,,,,,,,,,,,,,,,,,,,,
 //SRCÔøΩEEÔøΩEEÔøΩEE`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
