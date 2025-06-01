@@ -249,6 +249,12 @@
 //DST��`,(NULL),time,x,y,w,size,acc,a,r,g,b,blend,filter,(NULL),(NULL),loop,timer,(NULL),(NULL),(NULL)
 #DST_TEXT,0,0,1057,-50,210,36,2,255,255,255,255,1,1,0,0,500,0,0,0,0
 #DST_TEXT,0,500,1057,0,210,36,2,255,255,255,255,1,1,0,0,0,0,0,0,0
+//BANNER,,,,,,,,,,,,,,,,,,,,
+//SRC�EE�EE�EE`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,102,0,0,-1,-1,1,1,0,0,0,0,0,,,,,,,
+//DST�EE�EE�EE`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,250,105,450,120,2,0,255,255,255,1,0,0,0,300,11,0,0,0
+#DST_IMAGE,0,300,350,105,450,120,2,128,255,255,255,1,0,0,0,0,11,0,0,0
 //Title,,,,,,,,,,,,,,,,,,,,
 //SRC��`,(NULL),font,st,align,edit,,,,,,,,,,,,,,,
 #SRC_TEXT,0,0,10,2,0,,,,,,,,,,,,,,,
@@ -922,12 +928,6 @@
 //DST��`,(null),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_BUTTON,0,0,625,640,175,51,0,255,255,255,255,0,1,0,0,0,0,0,0,0
 ,,,,,,,,,,,,,,,,,,,,
-//BREAK ROOM,,,,,,,,,,,,,,,,,,,,
-//SRC��`,(null),gr,x,y,w,h,div_x,div_y,cycle,timer,type,click,panel,,,,,,,
-#SRC_BUTTON,0,0,12,1610,181,181,1,1,0,0,6,1,0,,,,,,,
-//DST��`,(null),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_BUTTON,0,0,5,635,36,36,0,255,255,255,255,0,1,0,0,0,0,0,0,0
-,,,,,,,,,,,,,,,,,,,,
 //SCOREPANEL,,,,,,,,,,,,,,,,,,,,
 //SRC��`,(null),gr,x,y,w,h,div_x,div_y,cycle,timer,type,click,panel,,,,,,,
 #SRC_BUTTON,0,0,576,208,350,51,2,1,0,0,4,1,0,,,,,,,
@@ -1412,7 +1412,7 @@
 ,,,,,,,,,,,,,,,,,,,,
 //button80 screen mode,,,,,,,,,,,,,,,,,,,,
 //SRC�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE`,index,gr,x,y,w,h,div_x,div_y,cycle,timer,type,click,panel,plusonly,,,,,,
-#SRC_BUTTON,0,0,0,0,0,0,1,1,0,0,83,1,0,0,,,,,,
+#SRC_BUTTON,0,0,0,0,0,0,1,1,0,0,80,1,0,0,,,,,,
 //DST�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_BUTTON,0,0,593,509,415,43,2,255,255,255,255,1,0,0,0,0,22,0,0,0
 //value,,,,,,,,,,,,,,,,,,,,
@@ -1474,7 +1474,7 @@
 ,,,,,,,,,,,,,,,,,,,,
 //button81 save mode,,,,,,,,,,,,,,,,,,,,
 //SRC�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE`,index,gr,x,y,w,h,div_x,div_y,cycle,timer,type,click,panel,plusonly,,,,,,
-#SRC_BUTTON,0,0,0,0,0,0,1,1,0,0,80,1,0,0,,,,,,
+#SRC_BUTTON,0,0,0,0,0,0,1,1,0,0,83,1,0,0,,,,,,
 //DST�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_BUTTON,0,0,593,566,415,43,2,255,255,255,255,1,0,0,0,0,22,0,0,0
 //value,,,,,,,,,,,,,,,,,,,,
@@ -2414,6 +2414,12 @@
 //DST��`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_NUMBER,0,0,0,148,13,14,2,255,255,255,255,1,1,0,0,500,0,0,0,0
 #DST_NUMBER,0,500,0,96,13,14,2,255,255,255,255,1,1,0,0,0,0,0,0,0
+//button74 judge timing (control),,,,,,,,,,,,,,,,,,,,
+//SRC�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE`,index,gr,x,y,w,h,div_x,div_y,cycle,timer,type,click,panel,plusonly,,,,,,
+#SRC_BUTTON,0,0,95,1749,18,42,1,2,0,0,75,0,0,0,,,,,,
+//DST�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE�EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_BUTTON,0,500,80,90,9,10,2,0,255,255,255,1,0,0,0,1000,0,0,0,0
+#DST_BUTTON,0,1000,80,90,9,10,2,255,255,255,255,1,0,0,0,0,0,0,0,0
 ,,,,,,,,,,,,,,,,,,,,
 //BG,,,,,,,,,,,,,,,,,,,,
 //SRC�EE�EE�EE`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
