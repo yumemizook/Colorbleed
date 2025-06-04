@@ -26,5 +26,4 @@
 #ENDOFHEADER,,,,,,,,
 
 //#CUSTOMOPTIONで設定したoption値は、#includeで参照しているスキンにも有効です,,,
-
 #INCLUDE,LR2files\Theme\Colorbleed\decide\decide.csv,

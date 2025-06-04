@@ -1512,7 +1512,7 @@
 //DST��`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_NUMBER,0,0,470,199,35,37,2,255,255,255,255,1,1,0,0,0,27,0,0,0
 ,,,,,,,,,,,,,,,,,,,,
-//Clears,,,,,,,,,,,,,,,,,,,,
+//Fails,,,,,,,,,,,,,,,,,,,,
 //SRC��`,(null),gr,x,y,w,h,div_x,div_y,cycle,timer,num,align,keta,,,,,,,
 #SRC_NUMBER,0,0,0,367,257,27,10,1,0,0,32,1,8,,,,,,,
 //DST��`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
