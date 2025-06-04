@@ -2,7 +2,7 @@
 //I would like to say this is the STUPIDEST implementation of BATTLE PLAY I have ever seen in my entire life.,,,,,,,,,,,,,,,,,,,,
 "//Nnot only do I have to write almost every essential definitions TWICE, but I have to do maths and align those as well. Fortunately the latter is simple enough",,,,,,,,,,,,,,,,,,,,
 #ENDOFHEADER,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
+#RESOLUTION,,2,,,,,,,,,,,,,,,,,,
 //SCRATCH PLACE 0=LEFT 1=RIGHT DEFAULT=0,,,,,,,,,,,,,,,,,,,,
 //sc side,1P,2P,,,,,,,,,,,,,,,,,,
 #SCRATCHSIDE,0,1,,,,,,,,,,,,,,,,,,
