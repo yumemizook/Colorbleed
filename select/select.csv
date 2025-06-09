@@ -15,8 +15,7 @@
 #IMAGE,LR2files\Theme\Colorbleed\select\credits.png,,,,,//4,,,,,,,,,,,,,,
 #IMAGE,LR2files\Theme\Colorbleed\select\profile.png,,,,,//5,,,,,,,,,,,,,,
 #IMAGE,LR2files\Theme\Colorbleed\select\cursor\*.png,,,,,//6,,,,,,,,,,,,,,
-#IMAGE,LR2files\Theme\Colorbleed\select\cursor\brkrm.png,,,,,//7,,,,,,,,,,,,,,
-#IMAGE,LR2files\Theme\Colorbleed\select\cursor\idle.mpg,,,,,//8,,,,,,,,,,,,,,
+#IMAGE,LR2files\Theme\Colorbleed\select\avatar\*.png,,,,,//7,,,,,,,,,,,,,,
 #FONT,20,4,2,,,,,,,,,,,,,,,,,
 #LR2FONT,LR2files\Theme\Colorbleed\font\font.lr2font,,,,,,//0,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,
@@ -247,8 +246,15 @@
 //SRC��`,(NULL),font,st,align,edit,,,,,,,,,,,,,,,
 #SRC_TEXT,0,0,2,0,0,,,,,,,,,,,,,,,
 //DST��`,(NULL),time,x,y,w,size,acc,a,r,g,b,blend,filter,(NULL),(NULL),loop,timer,(NULL),(NULL),(NULL)
-#DST_TEXT,0,0,1057,-50,210,36,2,255,255,255,255,1,1,0,0,500,0,0,0,0
-#DST_TEXT,0,500,1057,0,210,36,2,255,255,255,255,1,1,0,0,0,0,0,0,0
+#DST_TEXT,0,0,1057,-50,180,36,2,255,255,255,255,1,1,0,0,500,0,0,0,0
+#DST_TEXT,0,500,1057,0,180,36,2,255,255,255,255,1,1,0,0,0,0,0,0,0
+//Avatar,,,,,,,,,,,,,,,,,,,,
+//SRC�EE�EE�EE`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,7,0,0,-1,-1,1,1,0,0,0,0,0,,,,,,,
+//DST�EE�EE�EE`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,1209,-42,39,39,2,255,255,255,255,1,0,0,0,500,0,0,0,0
+#DST_IMAGE,0,500,1209,8,39,39,2,255,255,255,255,1,0,0,0,0,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,
 //BANNER,,,,,,,,,,,,,,,,,,,,
 //SRC�EE�EE�EE`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
 #SRC_IMAGE,0,102,0,0,-1,-1,1,1,0,0,0,0,0,,,,,,,

@@ -8,7 +8,7 @@
 #CUSTOMOPTION,LANGUAGE,900,ENGLISH,JAPANESE,,
 #CUSTOMFILE,BG IMAGE,LR2files\Theme\Colorbleed\select\Image\*.jpg,
 #CUSTOMFILE,CURSOR,LR2files\Theme\Colorbleed\select\cursor\*.png,
-
+#CUSTOMFILE,AVATAR,LR2files\Theme\Colorbleed\select\avatar\*.png,default.png
 
 #ENDOFHEADER,,,,,,,,
 
