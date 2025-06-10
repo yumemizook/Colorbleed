@@ -252,8 +252,8 @@
 //SRC�EE�EE�EE`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
 #SRC_IMAGE,0,7,0,0,-1,-1,1,1,0,0,0,0,0,,,,,,,
 //DST�EE�EE�EE`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_IMAGE,0,0,1209,-42,39,39,2,255,255,255,255,1,0,0,0,500,0,0,0,0
-#DST_IMAGE,0,500,1209,8,39,39,2,255,255,255,255,1,0,0,0,0,0,0,0,0
+#DST_IMAGE,0,0,1209,-42,39,39,2,255,255,255,255,0,1,0,0,500,0,0,0,0
+#DST_IMAGE,0,500,1209,8,39,39,2,255,255,255,255,0,1,0,0,0,0,0,0,0
 ,,,,,,,,,,,,,,,,,,,,
 //BANNER,,,,,,,,,,,,,,,,,,,,
 //SRC�EE�EE�EE`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
