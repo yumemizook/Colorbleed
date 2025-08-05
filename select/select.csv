@@ -212,6 +212,10 @@
 //DST��`,index,time,x,y,w,size,acc,a,r,g,b,blend,filter,(NULL),(NULL),loop,timer,(NULL),(NULL),(NULL)
 #DST_BAR_TITLE,0,0,65,2,65535,30,0,255,255,255,255,0,1,0,0,0,0,0,0,0
 ,,,,,,,,,,,,,,,,,,,,
+//SRC��`,index,font,st,align,,,,,,,,,,,,,,,,
+#SRC_BAR_TITLE,1,0,0,0,,,,,,,,,,,,,,,,
+//DST��`,index,time,x,y,w,size,acc,a,r,g,b,blend,filter,(NULL),(NULL),loop,timer,(NULL),(NULL),(NULL)
+#DST_BAR_TITLE,1,0,65,2,65535,30,0,255,0,255,255,0,1,0,0,0,0,0,0,0
 //SLIDER,,,,,,,,,,,,,,,,,,,,
 //SRC��`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
 #SRC_IMAGE,0,0,486,0,15,397,1,1,0,0,0,0,0,,,,,,,
